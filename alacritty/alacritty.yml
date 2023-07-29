@@ -87,7 +87,7 @@ scrolling:
 
   # Number of lines the viewport will move for every line scrolled when
   # scrollback is enabled (history > 0).
-  #multiplier: 3
+  multiplier: 3
 
   # Scroll to the bottom when new text is written to the terminal.
   #auto_scroll: false
@@ -852,4 +852,4 @@ key_bindings:
   - { key: PageDown,  mods: None,          action: ScrollPageDown, mode: ~Alt  }
   - { key: Home,      mods: Shift,         action: ScrollToTop,    mode: ~Alt  }
   - { key: End,       mods: Shift,         action: ScrollToBottom, mode: ~Alt  }
-
+  - { key: C,         mods: Super,         action: SpawnNewInstance }

@@ -9,9 +9,6 @@ syntax on
 " enable line numbers "
 set number
 
-" highlight current line "
-set cursorline
-:highlight Cursorline cterm=bold ctermbg=black
 
 " enable highlight search pattern "
 set hlsearch

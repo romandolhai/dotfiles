@@ -9,6 +9,8 @@ syntax on
 " enable line numbers "
 set number
 
+" On pressing tab, insert 4 spaces
+set expandtab
 
 " enable highlight search pattern "
 set hlsearch

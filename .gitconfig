@@ -1,0 +1,16 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[user]
+	name = Roman D.
+	email = romadolgay@gmail.com
+[init]
+	defaultBranch = main
+[roman]
+	dolhai = roman.dolhai@scaletools.com
+[core]
+	editor = vim
+[merge]
+	ff = false
+[alias]
+    co = checkout

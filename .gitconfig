@@ -14,3 +14,8 @@
 	ff = false
 [alias]
     co = checkout
+    b = branch
+    l = log
+    st = status
+    c = commit
+    wdiff = diff --word-diff
